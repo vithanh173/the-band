@@ -1,0 +1,97 @@
+@import "./utilities/mixin";
+
+@include media-md {
+    .header {
+        overflow: hidden;
+
+        .search {
+            display: none;
+        }
+
+        .mobile_menu {
+            display: block;
+        }
+
+        .nav {
+            display: block;
+
+            .subnav {
+                position: initial;
+                background-color: #333;
+
+                a {
+                    padding: 5px 36px;
+                    color: #fff;
+                }
+            }
+        }
+
+        .nav>li {
+            display: block;
+        }
+
+        .nav>li:first-child {
+            display: inline-block;
+        }
+
+    }
+
+    .member_list {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 16px;
+
+        img {
+            width: 60%;
+        }
+    }
+
+    .place_list {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 16px;
+
+        button {
+            width: 100%;
+        }
+    }
+
+    .contact_body {
+        grid-template-columns: repeat(1, 1fr);
+
+        .contact_infor {
+            line-height: 2;
+        }
+
+        .contact_control {
+            .contact_input {
+                display: block;
+
+                input {
+                    margin-top: 8px;
+                }
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    .footer {
+        .social_icons {
+            justify-content: space-between;
+            font-size: 40px;
+        }
+    }
+
+    .modal {
+        width: 90%;
+    }
+}
+
+@include media-lg {
+    .nav {
+        li:hover .subnav {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+@import "./utilities/variables";
+
+.tour_section {
+    color: $white-color;
+    background-color: #000;
+}
+
+.tickets_list {
+    margin-top: 40px;
+    background-color: #fff;
+    list-style: none;
+
+
+    li {
+        padding: 11px 16px;
+        font-size: 15px;
+        color: #757575;
+        border: 1px solid #ddd;
+    }
+
+    .sold_out {
+        margin-left: 16px;
+        padding: 3px 4px;
+        color: #fff;
+        background-color: #f44336;
+    }
+
+    .quantity {
+        margin-top: -3px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: #fff;
+        background-color: #000;
+        border-radius: 50%;
+        float: right;
+    }
+}
+
+
+.place_list {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+
+
+    .place_item {
+        width: calc(100% / 3);
+        padding: 0 8px;
+    }
+
+    .place_img {
+        display: block;
+        width: 100%;
+    }
+
+    .place_img:hover {
+        opacity: 0.6;
+    }
+
+    .place_body {
+        background-color: $white-color;
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .place_heading {
+        font-size: 15px;
+        font-weight: 500;
+        color: $black-color;
+    }
+
+    .place_time {
+        margin-top: 15px;
+        color: #757575;
+    }
+
+    .place_desc {
+        margin-top: 15px;
+        line-height: 1.4;
+        color: $black-color;
+    }
+
+    .buy_btn {
+        margin-top: 8px;
+        padding: 8px;
+        font-weight: 600;
+        color: $white-color;
+        background-color: $black-color;
+        border-radius: 5px;
+    }
+}

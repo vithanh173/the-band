@@ -1,0 +1,27 @@
+@import "./introduce.module";
+@import "./tour.module";
+@import "./contact.module";
+
+
+.content_section {
+    margin: 0 auto;
+    padding: 64px 16px 112px 16px;
+    max-width: 100%;
+    width: 800px;
+}
+
+
+.section_heading {
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.section_sub_heading {
+    margin-top: 25px;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+    text-align: center;
+}

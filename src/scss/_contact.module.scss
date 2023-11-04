@@ -1,0 +1,46 @@
+.contact_body {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .contact_infor span {
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+
+        p {
+            margin-left: 8px;
+        }
+    }
+
+    .contact_control {
+
+        .contact_input {
+            display: flex;
+        }
+
+        .contact_input input {
+            padding: 8px;
+            width: 100%;
+        }
+
+        .input_name {
+            margin-right: 16px;
+        }
+
+        .input_message {
+            margin-top: 8px;
+            padding: 8px;
+            width: 100%;
+        }
+
+        button {
+            margin-top: 16px;
+            padding: 8px 16px;
+            color: $white-color;
+            background-color: $black-color;
+            float: right;
+        }
+    }
+}

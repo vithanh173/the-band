@@ -1,0 +1,28 @@
+.about_text {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.member_list {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+    text-align: center;
+
+}
+
+.member_item {}
+
+.member_name {
+    font-size: 15px;
+}
+
+.member_img {
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
